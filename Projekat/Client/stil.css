@@ -1,0 +1,485 @@
+body{
+    background-image: url(/slika104.jpg);
+    background-repeat:repeat; 
+    background-size:cover;
+    height:100%; 
+    
+}
+
+.glstrana
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap;
+  
+   height:100%;
+   width: 100%;
+   
+}
+.najveciDiv
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap;
+  
+   height:100%;
+  
+   
+}
+  .velikiDiv
+  {
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+     height:100%;
+    width: 100%;
+
+  }
+
+.salicediv 
+{
+    display: flex; 
+    flex-wrap: wrap;
+   justify-content:center;
+   flex:auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243, 118, 118, 0.418);
+    margin-bottom: 30px;
+    
+   
+}
+
+.sala1 , .sala2 
+{
+    align-self:center ;
+    margin: 20px 20px 20px 20px;
+    height: 20%;
+    width:30%;
+    background-color: rgba(243, 118, 118, 0);
+    /* border: 0px solid rgba(243, 118, 118, 0.356); */
+    border:none;
+    font-size: 20px;
+    font-style: oblique;
+    color:rgb(107, 23, 23);
+    font-family: "Times New Roman", Times, serif;
+    transition-duration: 0.4s;
+}
+.sala1:hover
+{
+    color:white;
+}
+.izabranaSalaDiv
+{
+    display: flex; 
+    flex-wrap: wrap;
+   justify-content:center;
+   font-size: 30px;
+   font-style:italic;
+   color:rgb(107, 23, 23);
+   background-color: rgba(243, 118, 118, 0.384);
+
+}
+
+ .zvaniceDiv
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap; 
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+.rezervacijeDiv
+{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.zvanice 
+{
+    margin-right: 50px;
+
+}
+.rez 
+{
+    margin-left: 30px; 
+    margin-top: 30px;
+}
+
+.reztxt, .zvanicatxt , .izaberiteTipIKoltxt , .d
+{
+    font-size: 30px;
+    font-style:oblique;
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(230, 13, 67);
+    margin-bottom: 10px;
+
+    /* background-color: bisque;  */
+}
+
+.izaberiteTipIKoltxt
+{
+    width: 50%;
+}
+.divZaUnosiButton , .divZaUnos 
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap;   
+    margin-left:10px ;
+    
+}
+.dugmeZaRez, .mojiDogadjaji 
+{
+  font-size: 22px;
+  transition-duration: 0.4s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* font-style: oblique; */
+  font-style:italic ;
+  color:rgb(107, 23, 23);
+  font-family: "Times New Roman", Times, serif;
+  
+}
+.dodajDekBut, .listDekBut 
+{
+    transition-duration: 0.4s;
+    font-style:italic ;
+    color:rgb(107, 23, 23);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+.izbrisiButton , .izmeniButton , .dekoracijeBut,.otkaziBut, .zvaniceBut ,.dodajGosteButton ,.proveraDolaskaZvanicaButton ,.dodajGB ,.dugmeDosao ,.racunBut 
+{
+    transition-duration: 0.4s;
+    font-style:italic ;
+    color:rgb(107, 23, 23);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px; 
+    margin-bottom:10px ;
+}
+.izmeniButton:hover
+{
+    background-color:indianred;
+    color: white;
+
+}
+.dugmeDosao:hover
+{
+    background-color:rgb(7, 196, 7);
+    color: white; 
+}
+
+.dodajGB:hover
+{
+    
+    background-color:rgb(107, 23, 23);
+    color: white;
+
+}
+.zvaniceBut:hover
+{
+    background-color:rgb(107, 23, 23);
+    color: white;
+}
+.dodajGosteButton:hover
+{
+    background-color:rgb(107, 23, 23);
+    color: white;
+}
+.proveraDolaskaZvanicaButton:hover
+{
+    background-color:rgb(107, 23, 23);
+    color: white;
+}
+.dekoracijeBut:hover
+{
+    background-color:indianred;
+    color: white;
+
+}
+.otkaziBut:hover
+{
+    background-color:red;
+    color: white;
+
+}
+.izbrisiButton:hover
+{
+    background-color:red;
+    color: white;
+
+}
+.dugmeZaRez:hover {
+ background-color:indianred;
+  color: white;
+}
+.listDekBut:hover {
+    background-color:indianred;
+     color: white;
+   }
+.mojiDogadjaji:hover {
+    background-color:indianred;
+    color: white;
+  }
+.dodajDekBut:hover {
+        background-color:indianred;
+         color: white;
+       }
+
+.deoZaUnosTelIDogadjaja
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap;   
+}
+.dodajIIzmeniDek
+{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;  
+    margin-left: 10px;
+    margin-top: 30px;
+}
+/* .d
+{
+    font-size: 30px;
+    font-style:oblique;
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(230, 13, 67);
+    background-color: bisque; 
+    margin-bottom: 30px;
+    margin-left: 10px;
+} */
+.tabelaDiv
+{
+    margin-left: 30px;
+    margin-top: 60px;
+    overflow-x:auto;
+
+}
+.table
+{
+    margin-top: 80px;
+}
+table,th,td 
+{
+    border: 1px solid;
+    
+
+}
+
+.tabeladog ,.tabeladek ,.tabelagostiju
+{
+    background-color:rgb(235, 184, 184);
+    transition-duration: 0.4s;
+    color:rgb(150, 41, 41);
+}
+.tabelagostiju:hover
+{
+    background-color: white;
+  
+
+} 
+.tabeladog:hover
+{
+    background-color: white;
+   
+
+} 
+.tabeladek:hover
+{
+    background-color: white;
+    /* transition-duration: 0.4s; */
+
+} 
+.zaglavlje
+{
+    background-color:rgb(243, 118, 118);
+
+}
+.red , .divZaTipIKol , .bR , .prezimegostaLabDiv ,.imegostaLabDiv
+{
+  color:rgb(107, 23, 23);
+  font-family: "Times New Roman", Times, serif;
+  font-style:oblique;
+  font-weight: bolder;
+}
+.kolicinaDiv
+{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;   
+}
+.divZaTipIKol
+{
+    display: flex; 
+    flex-direction:column;
+    flex-wrap: wrap;   
+}
+.divZaPrikazRacuna {
+
+    display: none;
+  
+    position: fixed;
+  
+    z-index: 1;
+  
+    padding-top: 100px;
+  
+    left: 0;
+  
+    top: 0;
+  
+    width: 100%;
+  
+    height: 100%;
+  
+    overflow: auto;
+  
+    background-color: rgba(0,0,0,0.4);
+  
+  }
+  
+  .divZaBeliRacun {
+/*   
+    background-color: beige; */
+    background-image: url(/pare.avif);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 150px;
+
+    background-size:cover;
+    background-repeat: no-repeat;
+
+  
+    padding: 50px;
+  
+    margin: auto;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+  }
+.dugmeZaRez 
+{
+    width: 200px;
+}
+.racunBut
+{
+    width: 150px;
+}
+.mojiDogadjaji
+{
+    width: 90%;
+}
+
+.divZaUnos
+{
+    margin: left 10px; 
+    margin: right 10px;
+}
+.divZaTabeluGostiju
+{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap: wrap;  
+}
+.divZaButtonDosao
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.pozeleni
+{
+    background-color:#92bf8f;
+    color:rgb(32, 58, 4);
+}
+
+.labelKC
+{
+    font-style:oblique;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+
+}
+.divZabutonPlaceno
+{
+    justify-content:end;
+
+}
+
+.cenDek,.cenZaM
+{
+    padding-left: 30px;
+
+}
+  @media only screen and (max-width:809px)  {
+    .tabelaDiv {
+     margin-left: 10px;
+     margin-top: 20px;
+     /* 808 - */
+
+
+    }
+  } 
+
+  @media only screen and (max-device-width: 415px) 
+  {
+    .izabranaSalaDiv 
+    {
+       font-size: 70px;
+     
+    }
+    .sala1 , .sala2 
+    {
+        font-size: 40px;
+    }
+    .reztxt, .zvanicatxt , .izaberiteTipIKoltxt , .d 
+    {
+        font-size: 60px;
+    }
+    .dugmeZaRez, .mojiDogadjaji 
+    {
+        font-size: 50px;
+    }
+    .dodajDekBut, .listDekBut , .red , .divZaTipIKol , .bR , .prezimegostaLabDiv ,.imegostaLabDiv 
+    {
+        font-size: 50px;
+    }
+    .izbrisiButton , .izmeniButton , .dekoracijeBut,.otkaziBut, .zvaniceBut ,.dodajGosteButton ,.proveraDolaskaZvanicaButton ,.dodajGB ,.dugmeDosao ,.racunBut  ,.labelKC
+    {
+        font-size: 45px;
+
+    }
+    .zaglavlje ,.TabelaDogadjaji ,.TabelaGostiju ,.TabelaDekoracija
+    {
+        font-size: 40px;
+
+    }
+    input , select 
+    {
+        font-size: 40px;
+    }
+    .cenDek , .cenZaM
+    {
+        font-size: 40px;
+    }
+  
+
+   
+
+  } 
+  /*   @media only screen and (max-width: 400px), */
+
+
+
